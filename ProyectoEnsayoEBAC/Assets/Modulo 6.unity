@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 510382011}
   - component: {fileID: 510382015}
   - component: {fileID: 510382016}
+  - component: {fileID: 510382017}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -303,6 +304,18 @@ MonoBehaviour:
   listaDeCubos: []
   factordeEscalamiento: 0.95
   NumCubos: 0
+--- !u!114 &510382017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510382010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95617fde48f0bc94f98ca1860c0e8684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &557465914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3404362017584335362, guid: 3d342923fd5ae0343bc8ab9cd4446bef, type: 3}
