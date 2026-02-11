@@ -136,6 +136,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b390ce474d78ae640bc09856fe112421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &62620621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5916064377867418991, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
+  m_PrefabInstance: {fileID: 1409821895091351237}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &62620627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62620621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7aaee2ecead6a4996ebf6e9eb664f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabsCube: {fileID: 0}
 --- !u!1 &510382010
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +168,6 @@ GameObject:
   - component: {fileID: 510382011}
   - component: {fileID: 510382015}
   - component: {fileID: 510382016}
-  - component: {fileID: 510382017}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -285,9 +302,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 510382010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3022ef79ef9bd0743b0bd5321baf6a6a, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b7aaee2ecead6a4996ebf6e9eb664f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabsCube: {fileID: 0}
 --- !u!114 &510382016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,25 +315,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 510382010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7336d98ec6e919e409a763111bbf9b3d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b7aaee2ecead6a4996ebf6e9eb664f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabCubo: {fileID: 0}
-  listaDeCubos: []
-  factordeEscalamiento: 0.95
-  NumCubos: 0
---- !u!114 &510382017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510382010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95617fde48f0bc94f98ca1860c0e8684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  prefabsCube: {fileID: 0}
 --- !u!1 &557465914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3404362017584335362, guid: 3d342923fd5ae0343bc8ab9cd4446bef, type: 3}
@@ -634,7 +637,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5916064377867418991, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 62620627}
   m_SourcePrefab: {fileID: 100100000, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
 --- !u!1001 &1785093955576170456
 PrefabInstance:
