@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class ColorAwake : MonoBehaviour
+public class ColorAwakeOR : MonoBehaviour
 {
     public ColorUpdate GO1;
     public ColorFixedUpdate GO2;
-    public bool resultado1;
+    public bool resultado2;
 
     private void Update()
     {
-        resultado1 = GO1.variable1 && GO2.variable2;
+        resultado2 = GO1.variable1 || GO2.variable2;
 
-        if (resultado1)
+        if (resultado2)
             GetComponent<MeshRenderer>().material.color = Color.white;
         else
             GetComponent<MeshRenderer>().material.color = Color.black;
