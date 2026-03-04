@@ -331,11 +331,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557465914}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9f66bd3c7b55044bbb50777dd4d2c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &557465920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557465914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a872c0c9bed234a86e904bfac5b423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contadorEntero: 1
+  multiplicadorFloat: 1
+  numeroA: 5.7
+  numeroB: 2.3
+  resultadoEntero: 0
+  palabraColor: rojo
+  numeroDecimal: 3.1415927
+  numeroConvertido: 
+  nombreCompleto: Allan Sajhir Armuelles Sencion
+  parte1: 
+  parte2: 
+  parte3: 
+  listaNombre: []
+  numeroTexto1: 1500
+  numeroTexto2: 3200
+  frase: Hola Mundo
+  oracion: este es un ejemplo de texto
 --- !u!1 &588267598
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,7 +625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7578388194975221455, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.07
+      value: -9.76
       objectReference: {fileID: 0}
     - target: {fileID: 7578388194975221455, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
       propertyPath: m_LocalPosition.y
@@ -652,11 +681,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 895849025086691811, guid: ce55524016971d049aaa581e317449fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.92
+      value: -4.57
       objectReference: {fileID: 0}
     - target: {fileID: 895849025086691811, guid: ce55524016971d049aaa581e317449fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.017347664
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 895849025086691811, guid: ce55524016971d049aaa581e317449fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -758,6 +787,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3404362017584335362, guid: 3d342923fd5ae0343bc8ab9cd4446bef, type: 3}
       insertIndex: -1
       addedObject: {fileID: 557465919}
+    - targetCorrespondingSourceObject: {fileID: 3404362017584335362, guid: 3d342923fd5ae0343bc8ab9cd4446bef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 557465920}
   m_SourcePrefab: {fileID: 100100000, guid: 3d342923fd5ae0343bc8ab9cd4446bef, type: 3}
 --- !u!1001 &5110141457762229374
 PrefabInstance:
@@ -773,7 +805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5950884692554757593, guid: f8a51a8293f9a434a86f2acf3ac32f44, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.48
+      value: -8.59
       objectReference: {fileID: 0}
     - target: {fileID: 5950884692554757593, guid: f8a51a8293f9a434a86f2acf3ac32f44, type: 3}
       propertyPath: m_LocalPosition.y
@@ -830,7 +862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9075447695464262316, guid: 1bdde9d6750ea7a4c8d998f99059e318, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.17
+      value: -5.05
       objectReference: {fileID: 0}
     - target: {fileID: 9075447695464262316, guid: 1bdde9d6750ea7a4c8d998f99059e318, type: 3}
       propertyPath: m_LocalPosition.y
@@ -886,7 +918,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5133719927641275634, guid: 97bea70482e775b4bb9ad9b9bbabf6f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.91
+      value: -4.56
       objectReference: {fileID: 0}
     - target: {fileID: 5133719927641275634, guid: 97bea70482e775b4bb9ad9b9bbabf6f0, type: 3}
       propertyPath: m_LocalPosition.y
