@@ -149,7 +149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62620621}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b7aaee2ecead6a4996ebf6e9eb664f6, type: 3}
   m_Name: 
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62620621}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d8018359907b6f40a2173692daf853b, type: 3}
   m_Name: 
@@ -184,6 +184,18 @@ MonoBehaviour:
   numeroTexto2: 3200
   frase: Hola Mundo
   oracion: este es un ejemplo de texto
+--- !u!114 &62620629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62620621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dec6708cebd83548bf1ced6b0a941e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &510382010
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +849,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5916064377867418991, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 62620628}
+    - targetCorrespondingSourceObject: {fileID: 5916064377867418991, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 62620629}
   m_SourcePrefab: {fileID: 100100000, guid: 6c000a65ed4ca364d9c3342d979d3a40, type: 3}
 --- !u!1001 &1785093955576170456
 PrefabInstance:

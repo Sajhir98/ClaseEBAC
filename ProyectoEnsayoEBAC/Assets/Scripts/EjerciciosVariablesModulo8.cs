@@ -87,8 +87,9 @@ public class EjerciciosVariablesModulo8 : MonoBehaviour
             default:
                 GetComponent<MeshRenderer>().material.color = Color.white;
                 break;
-                Debug.Log("Color seleccionado: " + palabraColor);
+                
         }
+        Debug.Log("Color seleccionado: " + palabraColor);
         numeroConvertido = numeroDecimal.ToString("F4");
         Debug.Log("Float con 4 decimales:" + numeroConvertido);
     }
